@@ -31,6 +31,12 @@ class duo_auth extends rcube_plugin
 		
 		$this->register_handler('plugin.body', array($this, 'generate_html'));
 		
+		// 2FA override with specific IPs 
+		if(in_array($_SERVER['REMOTE_ADDR'], $this->get('2FA_OVERRIDE'))) {
+						     $_SESSION['_Duo_2FAuth'] = True;
+						     header('Location: ?_task=mail');
+						     }
+		
 		//indicates that user/pass authentication has succeeded.
 		$_SESSION['_Duo_Auth'] = True;
     	
