@@ -2,13 +2,14 @@
 /**
  * Two Factor Authentication using Duo Security for RoundCube
  *
- * @version 1.01
+ * @version 1.02
  *
  * Author(s): Alexios Polychronopoulos <dev@pushret.co.uk>
+ * Author(s): Leonardo Marino-Ramirez <marino@marino-johnson.org>
  * Date: 27/03/2015
  */
 
-require_once 'duo_web.php';
+require_once 'duo_web/duo_web.php';
 
 class duo_auth extends rcube_plugin 
 {
