@@ -43,7 +43,7 @@ class duo_auth extends rcube_plugin
 		$rcmail = rcmail::get_instance();
 		$rcmail->output->set_pagetitle('Duo Authentication');
 		
-		$this->include_script('Duo-Web-v1.bundled.min.js');
+		$this->include_script('duo_web/Duo-Web-v2.min.js');
 		
 		$ikey = $this->get('IKEY');
 		$skey = $this->get('SKEY');
