@@ -50,7 +50,7 @@ class duo_auth extends rcube_plugin
         	$host = $this->get('HOST');
         	$akey = $this->get('AKEY');
 
-        	$user = get_input_value('_user', RCUBE_INPUT_POST);
+        	$user = trim(rcube_utils::get_input_value('_user', rcube_utils::INPUT_POST, true));
         	
 		$sig_request = Duo::signRequest($ikey, $skey, $akey, $user);
 
