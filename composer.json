@@ -1,5 +1,5 @@
 {
-    "name": "duo_auth",
+    "name": "lmr/duo_auth",
     "type": "roundcube-plugin",
     "description": "Duo two-factor authentication for Roundcube",
     "homepage": "https://github.com/leonardomarino/duo_auth",
