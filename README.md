@@ -1,4 +1,4 @@
-roundcube duo_auth
+Roundcube lmr/duo_auth
 ==================
 
 This is a Roundcube webmail plugin that enables Duo Security Two Factor Authentication.
