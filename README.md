@@ -7,9 +7,24 @@ It creates an additional page after successful username/password authentication 
 
 INSTALLATION
 ============
+
 Same as any other Roundcube plugin. Clone the repository in the plugins directory of your Roundcube installation or download the zip from GitHub and unzip it in that directory.
 
 **PLEASE NOTE -** If you have downloaded the plugin via the "Download Zip" button in GitHub, rename the extracted folder to "duo_auth"
+
+Add the following to your project:
+
+```
+{
+    "require": {
+        "duosecurity/duo_php": "dev-master"
+    }
+}
+```
+
+Install using Composer (https://getcomposer.org):
+
+$ composer install
 
 CONFIGURATION
 =============
