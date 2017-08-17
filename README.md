@@ -19,6 +19,6 @@ Assuming a Duo integration has already been created in Duo's Admin Panel, you wi
 
 CREDITS
 =======
-Author: Alexios Polychronopoulos - Please send any feedback, feature request or bug report to dev@pushret.co.uk
+Author: Alexios Polychronopoulos - Wrote duo_auth for Roundcube.
 
-Author: Leonardo Mariño-Ramírez - Updated the plugin for compatibility with Roundcube 1.3.0.
+Author: Leonardo Mariño-Ramírez - Updated the plugin for compatibility with Roundcube 1.3.0. Please send any feedback or bug reports to @leonardomarino
