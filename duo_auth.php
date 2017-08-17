@@ -9,7 +9,7 @@
  * Date: 27/03/2015
  */
 
-require_once 'duo_web/duo_web.php';
+require_once 'duo_web.php';
 
 class duo_auth extends rcube_plugin 
 {
