@@ -12,19 +12,9 @@ Same as any other Roundcube plugin. Clone the repository in the plugins director
 
 **PLEASE NOTE -** If you have downloaded the plugin via the "Download Zip" button in GitHub, rename the extracted folder to "duo_auth"
 
-Add the following to your project:
-
-```
-{
-    "require": {
-        "duosecurity/duo_php": "dev-master"
-    }
-}
-```
-
 Install using Composer (https://getcomposer.org):
 
-$ composer install
+$ composer require lmr/duo_auth
 
 CONFIGURATION
 =============
