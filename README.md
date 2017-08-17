@@ -5,7 +5,7 @@ This is a Roundcube webmail plugin that enables [Duo Security](https://duo.com) 
 
 ![image](https://duo.com/assets/img/documentation/duoweb/websdk_network_diagram.png)
 
-It creates an additional page after successful username/password authentication that requires a 2nd Factor of Authentication using Duo Security (push, sms, call, code).
+It creates an additional page after successful username/password authentication that requires a 2nd Factor of Authentication using Duo Security (push, sms, call, hardware token code).
 
 INSTALLATION
 ============
