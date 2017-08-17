@@ -21,4 +21,4 @@ CREDITS
 =======
 Author: Alexios Polychronopoulos - Wrote duo_auth for Roundcube.
 
-Author: Leonardo Mariño-Ramírez - Updated the plugin for compatibility with Roundcube 1.3.0. Please send any feedback or bug reports to @leonardomarino
+Author: Leonardo Mariño-Ramírez - Updated the plugin for compatibility with Roundcube 1.3.0.
