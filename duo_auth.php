@@ -2,11 +2,11 @@
 /**
  * Two Factor Authentication using Duo Security for RoundCube
  *
- * @version 1.02
+ * @version 1.03
  *
  * Author(s): Alexios Polychronopoulos <dev@pushret.co.uk>
  * Author(s): Leonardo Marino-Ramirez <marino@marino-johnson.org>
- * Date: 27/03/2015
+ * Date: 08/16/2017
  */
 
 require_once 'duo_web.php';
