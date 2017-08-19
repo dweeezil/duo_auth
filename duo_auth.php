@@ -2,7 +2,7 @@
 /**
  * Two Factor Authentication using Duo Security for RoundCube
  *
- * @version 1.03
+ * @version 1.0.3
  *
  * Author(s): Alexios Polychronopoulos <dev@pushret.co.uk>
  * Author(s): Leonardo Marino-Ramirez <marino@marino-johnson.org>
