@@ -5,7 +5,7 @@
     "homepage": "https://github.com/leonardomarino/duo_auth",
     "keywords": ["two-factor","authentication","Duo Security"],
     "license": "AGPLv3",
-    "version": "1.0",
+    "version": "1.0.3",
     "authors": [
         {
             "name": "Alexios Polychronopoulos"
