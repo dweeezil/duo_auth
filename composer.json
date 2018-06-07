@@ -29,7 +29,7 @@
     },
 	"autoload": {
         "psr-4": {
-            "duosecurity/duo_api_php": "src/"
+            "duosecurity/duo_api_php\\": "src/"
         }
     }
 }
