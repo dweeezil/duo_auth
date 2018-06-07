@@ -25,4 +25,4 @@ Author: Alexios Polychronopoulos - Wrote duo_auth for Roundcube.
 
 Author: Leonardo Mariño-Ramírez - Updated the plugin for compatibility with Roundcube 1.3.0.
 
-Author: LeJohnson Chow Added support for IPv4 CIDR matching and 2FA overrride for specific users.
+Author: Johnson Chow Added support for IPv4 CIDR matching and 2FA overrride for specific users.
