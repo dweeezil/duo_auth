@@ -1,5 +1,4 @@
 <?php
-defined('ABSPATH') or die('Direct Access Denied');
 
 class Duo {
 	const DUO_PREFIX = "TX";
