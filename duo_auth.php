@@ -99,7 +99,17 @@ class duo_auth extends rcube_plugin
 						});
 				</script>
 				<center>	
-					<iframe id=\"duo_iframe\" width=\"620\" height=\"500\" frameborder=\"0\" allowtransparency=\"true\" style=\"background: transparent;\"></iframe>
+					<iframe id=\"duo_iframe\" frameborder=\"0\" allowtransparency=\"true\" style=\"background: transparent;\">
+					</iframe>
+					<style>
+					  #duo_iframe {
+					    width: 100%;
+					    min-width: 304px;
+					    max-width: 620px;
+					    height: 330px;
+					    border: none;
+					  }
+				</style>
 				</center>";	
 		
 		return($content);
