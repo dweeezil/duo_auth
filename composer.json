@@ -31,10 +31,5 @@
         "psr-4": {
             "duosecurity/duo_api_php\\": "src/"
         }
-    },
-    "scripts": {
-       "post-install-cmd": [
-          "ln -s ../../vendor/duosecurity/duo_api_php/src/* ."
-    ]
-  }	
+    }	
 }
