@@ -11,11 +11,11 @@
  */
 
 
-require_once 'duo_web.php';
-require_once 'Client.php';
-require_once 'Auth.php';
-require_once 'Requester.php';
-require_once 'CurlRequester.php';
+require_once 'vendor/duosecurity/duo_api_php/src/duo_web.php';
+require_once 'vendor/duosecurity/duo_api_php/src/Client.php';
+require_once 'vendor/duosecurity/duo_api_php/src/Auth.php';
+require_once 'vendor/duosecurity/duo_api_php/src/Requester.php';
+require_once 'vendor/duosecurity/duo_api_php/src/CurlRequester.php';
 
 class duo_auth extends rcube_plugin 
 {
