@@ -13,6 +13,10 @@ Install using Composer (https://getcomposer.org) from the root directory of your
 
 Run `$ composer require lmr/duo_auth`
 
+From the plugins/duo_auth directory of your roundcube installation:
+
+Run `$ composer dumpautoload -o`
+
 CONFIGURATION
 =============
 Copy `config.inc.php.dist` to `config.inc.php` and modify as necessary.
