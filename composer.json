@@ -24,7 +24,7 @@
     ],
     "require": {
         "php": ">=5.3.0",
-        "roundcube/plugin-installer": "~0.1.9",
+        "roundcube/plugin-installer": ">=0.2.0",
 	"duosecurity/duo_api_php": "dev-master"
     },
 	"autoload": {
