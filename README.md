@@ -15,6 +15,10 @@ Run `$ composer require lmr/duo_auth`
 
 Run `$ composer dumpautoload -o`
 
+Run `cd plugins/duo_auth/`
+
+Run `ln -s ../../vendor/duosecurity/duo_api_php/src/* .`
+
 CONFIGURATION
 =============
 Copy `config.inc.php.dist` to `config.inc.php` and modify as necessary.
