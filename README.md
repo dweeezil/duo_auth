@@ -11,7 +11,7 @@ INSTALLATION
 ============
 Install using Composer (https://getcomposer.org) from the root directory of your roundcube installation:
 
-Run `$ composer require lmr/duo_auth`
+Run `$ composer require "lmr/duo_auth:>=1.0.7"`
 
 Run `$ composer dumpautoload -o`
 
