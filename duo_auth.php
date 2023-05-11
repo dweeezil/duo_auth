@@ -102,6 +102,7 @@ class duo_auth extends rcube_plugin
 					<iframe id=\"duo_iframe\" frameborder=\"0\" allowtransparency=\"true\" style=\"background: transparent;\">
 					</iframe>
 					<style>
+					  .task-login #logo { top: 0 !important; }
 					  #duo_iframe {
 					    width: 100%;
 					    min-width: 304px;
