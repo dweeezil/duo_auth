@@ -35,9 +35,9 @@
 
    "extra": {
       "roundcube": {
-        "post-install-script": "/bin/install.sh",
-        "post-update-script": "/bin/update.sh",
-        "post-uninstall-script": "/bin/uninstall.sh"
+        "post-install-script": "bin/install.sh",
+        "post-update-script": "bin/update.sh",
+        "post-uninstall-script": "bin/uninstall.sh"
       }
    }
 
