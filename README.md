@@ -21,14 +21,14 @@ CONFIGURATION
 Enter all keys necessary for integration with Duo in the duo_auth.conf file.
 Assuming a Duo integration has already been created in Duo's Admin Panel, you will be able to find all the information requested in the config.inc.php there.
 
-2. Add the following lines to your roundcube configuration file - config.inc.php located in config/config.inc.php
+2. Add the following line to your roundcube configuration file - config.inc.php located in config/config.inc.php
 
 `$config['session_storage'] = 'php';`
 
 3. Modify your PHP config file (php.ini) as follows:
 
-session.save_handler = files
-session.save_path = "/var/lib/php/sessions"
+`session.save_handler = files`
+`session.save_path = "/var/lib/php/sessions"`
 
 CREDITS
 =======
