@@ -13,7 +13,7 @@ Install using Composer (https://getcomposer.org) from the plugins directory of y
 
 Run `$ cd plugins`
 
-Run `$ composer require lmr/duo_auth dev-master` you may see a warning message, please ignore and execute the post install script.
+Run `$ composer require lmr/duo_auth dev-master` you may see a warning message, please ignore and execute the post install script below.
 
 Run `$ php ./duo_auth/bin/install.php`
 
@@ -21,7 +21,8 @@ CONFIGURATION
 =============
 1. Go into the plugins/duo_auth/ directory and modify duo_auth.conf as necessary.
 Enter all keys necessary for integration with Duo in the duo_auth.conf file.
-Assuming a Duo integration has already been created in Duo's Admin Panel, you will be able to find all the information requested in the config.inc.php there.
+Assuming a Duo integration has already been created in Duo's Admin Panel, you will be able to find all the information requested.
+Specify the location of the redirect URI. After running the post-intall script above the `your_page_name_redirect.php` file should be located in the root roundcube directory. Modify the `header()` section of the `your_page_name_redirect.php` file to your particular needs. If you have a subdirectory where you access your WebMail application, adjust accordingly, for example: `header("Location: /WebMail/");` and `header("Location: /WebmMail/?_task=mail");`
 
 2. Add the following line to your roundcube configuration file - config.inc.php located in config/config.inc.php
 
