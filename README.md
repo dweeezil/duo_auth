@@ -13,7 +13,7 @@ Install using Composer (https://getcomposer.org) from the root directory of your
 
 Run `$ composer require lmr/duo_auth dev-master`
 
-Run `php plugins/duo_auth/bin/install.php`
+Run `$ php plugins/duo_auth/bin/install.php`
 
 CONFIGURATION
 =============
