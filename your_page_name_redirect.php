@@ -25,7 +25,7 @@
 # define attribute user Duo Web v4 SDK session state
    $state = $_GET["state"];
    $code = $_GET["duo_code"];
-   session_name("your_session_name");
+   session_name("roundcube_sessid");
    session_start();
    $saved_state = $_SESSION["_duo_auth_"]["state:"];
    $username = $_SESSION["_duo_auth_"]["username:"];
