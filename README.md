@@ -28,6 +28,7 @@ Assuming a Duo integration has already been created in Duo's Admin Panel, you wi
 3. Modify your PHP config file (php.ini) as follows:
 
 `session.save_handler = files`
+
 `session.save_path = "/var/lib/php/sessions"`
 
 CREDITS
