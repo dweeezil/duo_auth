@@ -23,8 +23,8 @@ Assuming a Duo integration has already been created in Duo's Admin Panel, you wi
 
 2. Add the following lines to your roundcube configuration file - config.inc.php located in config/config.inc.php
 
-// Session storage
-$config['session_storage'] = 'php';
+`// Session storage
+$config['session_storage'] = 'php';`
 
 3. Modify your PHP config file (php.ini) as follows:
 
