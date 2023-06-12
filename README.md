@@ -9,11 +9,13 @@ It creates an additional page after successful username/password authentication 
 
 INSTALLATION
 ============
-Install using Composer (https://getcomposer.org) from the root directory of your roundcube installation:
+Install using Composer (https://getcomposer.org) from the plugins directory of your roundcube installation:
 
-Run `$ composer require lmr/duo_auth dev-master`
+Run `$ cd plugins`
 
-Run `$ php plugins/duo_auth/bin/install.php`
+Run `$ composer require lmr/duo_auth dev-master` you may see a warning message, please ignore and execute the post install script.
+
+Run `$ php ./duo_auth/bin/install.php`
 
 CONFIGURATION
 =============
