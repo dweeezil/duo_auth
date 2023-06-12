@@ -35,9 +35,9 @@
 
    "extra": {
       "roundcube": {
-        "post-install-script": "plugins/duo_auth/bin/install.php",
-        "post-update-script": "plugins/duo_auth/bin/update.php",
-        "post-uninstall-script": "plugins/duo_auth/bin/uninstall.php"
+        "post-install-script": "bin/install.php",
+        "post-update-script": "bin/update.php",
+        "post-uninstall-script": "bin/uninstall.php"
       }
    }
 
