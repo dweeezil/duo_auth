@@ -6,7 +6,7 @@
 ##########
 
 # define new class plugin inside RoundCube Plugin App environment (RoundCube API SDK)
-   class duo_sdk extends rcube_plugin {
+   class duo_auth extends rcube_plugin {
 ##########
 
 # define hook's set inside calling current RoundCube instance (fully initialize RoundCube proccess instance)
