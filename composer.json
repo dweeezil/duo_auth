@@ -7,6 +7,7 @@
    "homepage": "https://github.com/leonardomarino/duo_auth",
    "keywords": ["two-factor","authentication","Duo Security"],
    "license": "GPL-3.0-or-later",
+   "version": "1.0.8",
 
    "authors": [
 
