@@ -13,9 +13,7 @@ Install using Composer (https://getcomposer.org) from the plugins directory of y
 
 Run `$ cd plugins`
 
-Run `$ composer require lmr/duo_auth dev-master` you may see a warning message, please ignore and execute the post install script below.
-
-Run `$ php ./duo_auth/bin/install.php`
+Run `$ composer require lmr/duo_auth dev-master`
 
 CONFIGURATION
 =============
