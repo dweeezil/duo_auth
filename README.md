@@ -9,9 +9,7 @@ It creates an additional page after successful username/password authentication 
 
 INSTALLATION
 ============
-Install using Composer (https://getcomposer.org) from the plugins directory of your roundcube installation:
-
-Run `$ cd plugins`
+Install using Composer (https://getcomposer.org) from the root directory of your roundcube installation:
 
 Run `$ composer require lmr/duo_auth dev-master`
 
