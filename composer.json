@@ -23,7 +23,7 @@
    ],
 
    "require": {
-      "php": "^7.4",
+      "php": ">=7.4",
       "roundcube/plugin-installer": "~0.3.1",
       "duosecurity/duo_universal_php": "^1.0.2"
    },
