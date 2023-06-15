@@ -25,7 +25,7 @@
 # define attribute user Duo Web v4 SDK session state
    $state = $_GET["state"];
    $code = $_GET["duo_code"];
-   session_name("roundcube_sessid");
+   session_name("your_session_name");
    session_start();
    $saved_state = $_SESSION["_duo_auth_"]["state:"];
    $username = $_SESSION["_duo_auth_"]["username:"];
@@ -40,7 +40,7 @@
       }
       session_destroy();
 
-      header("Location: /");
+      header("Location: {$config["rc_path"]}");
       exit;
 
    } else {
@@ -53,7 +53,7 @@
          $result = json_decode($result, true);
 
       if ($result["auth_context"]["result"] == 'success') {
-         header("Location: /?_task=mail");
+         header("Location: {$config["rc_path"]}?_task=mail");
          exit;
       } else {
          $_SESSION = array();
@@ -64,7 +64,7 @@
          }
          session_destroy();
 
-         header("Location: /");
+         header("Location: {$config["rc_path"]}");
          exit;
       }
 

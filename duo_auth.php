@@ -6,7 +6,7 @@
 ##########
 
 # define new class plugin inside RoundCube Plugin App environment (RoundCube API SDK)
-   class duo_auth extends rcube_plugin {
+   class duo_sdk extends rcube_plugin {
 ##########
 
 # define hook's set inside calling current RoundCube instance (fully initialize RoundCube proccess instance)
@@ -30,7 +30,7 @@
 
       if (isset($config["username"]) && in_array($username, $config["username"])) {
 
-         header("Location: /?_task=mail");
+         header("Location: {$config["rc_path"]}?_task=mail");
          exit;
 
       } elseif (isset($config["ipaddr"])) {
@@ -39,7 +39,7 @@
 
             if ($this->ipaddr($_SERVER['REMOTE_ADDR'], $ipaddr)) {
 
-               header("Location: /?_task=mail");
+               header("Location: {$config["rc_path"]}?_task=mail");
                exit;
 
             }
@@ -63,7 +63,7 @@
             $e->getMessage();
 
                if ($duo_failmode == "open") {
-                  header("Location: /?_task=mail");
+                  header("Location: {$config["rc_path"]}?_task=mail");
                   exit;
                } else {
                   $_SESSION = array();
@@ -74,7 +74,7 @@
                   }
                   session_destroy();
 
-                  header("Location: /");
+                  header("Location: {$config["rc_path"]}");
                   exit;
 
                }
@@ -104,7 +104,7 @@
 
       if (isset($_SESSION["_duo_auth_"])) {
 
-         header("Location: /your_page_name_blocking_access_while_2FA_not_approved.htm");
+         header("Location: {$config["rc_path"]}your_page_name_blocking_access_while_2FA_not_approved.htm");
          exit;
 
       } else {}
