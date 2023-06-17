@@ -102,9 +102,11 @@
 # function blocking access while 2FA not finished
    function _blocking_access_() {
 
+      $rc_path = parse_ini_file("duo.conf", true);
+
       if (isset($_SESSION["_duo_auth_"])) {
 
-         header("Location: {$config["rc_path"]}your_page_name_blocking_access_while_2FA_not_approved.htm");
+         header("Location: {$rc_path["rc_path"]["rc_path"]}your_page_name_blocking_access_while_2FA_not_approved.htm");
          exit;
 
       } else {}
