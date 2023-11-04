@@ -102,7 +102,7 @@
 # function blocking access while 2FA not finished
    function _blocking_access_() {
 
-      $rc_path = parse_ini_file("duo_auth.conf", true);
+      $rc_path = parse_ini_file("duo.conf", true);
 
       if (isset($_SESSION["_duo_auth_"])) {
 
