@@ -8,6 +8,7 @@
    require "./vendor/firebase/php-jwt/src/BeforeValidException.php";
    require "./vendor/firebase/php-jwt/src/ExpiredException.php";
    require "./vendor/firebase/php-jwt/src/SignatureInvalidException.php";
+   require "./vendor/firebase/php-jwt/src/JWTExceptionWithPayloadInterface.php";
 
 # register using namespace/class from lib file's
    use \Firebase\JWT\JWT;
