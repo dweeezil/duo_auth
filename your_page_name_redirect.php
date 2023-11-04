@@ -23,10 +23,10 @@
    $config = parse_ini_file("./plugins/duo_auth/duo_auth.conf");
    $duo_client = new Client($config['client_id'], $config['client_secret'], $config['api_hostname'], $config['redirect_uri']);
 
-# define attribute user Duo Web v4 SDK session state
+# define attribute user Duo Web v4 SDK session state. Change session name if needed
    $state = $_GET["state"];
    $code = $_GET["duo_code"];
-   session_name("your_session_name");
+   session_name("roundcube_sessid");
    session_start();
    $saved_state = $_SESSION["_duo_auth_"]["state:"];
    $username = $_SESSION["_duo_auth_"]["username:"];
