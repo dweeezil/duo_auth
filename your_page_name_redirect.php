@@ -5,10 +5,10 @@
    require "./vendor/duosecurity/duo_universal_php/src/DuoException.php";
    require "./vendor/firebase/php-jwt/src/JWT.php";
    require "./vendor/firebase/php-jwt/src/Key.php";
+   require "./vendor/firebase/php-jwt/src/JWTExceptionWithPayloadInterface.php";
    require "./vendor/firebase/php-jwt/src/BeforeValidException.php";
    require "./vendor/firebase/php-jwt/src/ExpiredException.php";
    require "./vendor/firebase/php-jwt/src/SignatureInvalidException.php";
-   require "./vendor/firebase/php-jwt/src/JWTExceptionWithPayloadInterface.php";
 
 # register using namespace/class from lib file's
    use \Firebase\JWT\JWT;
