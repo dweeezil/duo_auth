@@ -22,7 +22,7 @@ CONFIGURATION
 1. Go into the plugins/duo_auth/ directory and modify duo_auth.conf as necessary.
 Enter all keys necessary for integration with Duo in the duo_auth.conf file.
 Assuming a Duo integration has already been created in Duo's Admin Panel, you will be able to find all the information requested.
-Specify the location of the redirect URI. After running the post-intall script above the `your_page_name_redirect.php` file should be located in the root roundcube directory. Modify key "rc_path" in duo.conf file to your particular needs. If you have a subdirectory where you access your WebMail application, adjust accordingly, for example: rc_path = "/WebMail/" or rc_path = "/rc/". If you have root folder installation in your web-server nothing change requirement in duo.conf file, this value `("/")` specify by default.
+Specify the location of the redirect URI. After running the post-intall script above the `your_page_name_redirect.php` file should be located in the root roundcube directory. Modify key "rc_path" in duo_auth.conf file to your particular needs. If you have a subdirectory where you access your WebMail application, adjust accordingly, for example: rc_path = "/WebMail/" or rc_path = "/rc/". If you have root folder installation in your web-server nothing change requirement in duo_auth.conf file, this value `("/")` specify by default.
 
 2. Add the following line to your roundcube configuration file - config.inc.php located in config/config.inc.php
 
